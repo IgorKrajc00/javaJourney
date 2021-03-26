@@ -47,4 +47,10 @@ class Employee {
         this.id = nextId;
         nextId++;
     }
+
+    // unit tester
+    public static void main(String[] args) {
+        Employee e = new Employee("Harry", 50000, 2000, 7, 14);
+        System.out.println(e.getName() + " " + e.getSalary());
+    }
 }
