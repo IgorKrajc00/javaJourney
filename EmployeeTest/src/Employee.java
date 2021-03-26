@@ -6,9 +6,9 @@ class Employee {
     private LocalDate hireDay;
 
     public Employee(String n, double s, int year, int month, int day) {
-        name = n;
-        salary = s;
-        hireDay = LocalDate.of(year, month, day);
+        this.name = n;
+        this.salary = s;
+        this.hireDay = LocalDate.of(year, month, day);
     }
 
     public String getName() { return name; }
