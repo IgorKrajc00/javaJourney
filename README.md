@@ -1,6 +1,7 @@
 # Welcome to my random_repo!
 
 #### this is my ***second ever*** readme file
+this repository serves the purpouse of showcasing my initial programs that i wrote as i learned Java language.
 
 - ### first_steps -  examples of my Java journey
     - **hello.java** - a simple 'Hello World' program
