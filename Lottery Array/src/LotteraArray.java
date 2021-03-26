@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 public class LotteraArray {
     public static void main(String args[]) {
 
@@ -23,29 +22,3 @@ public class LotteraArray {
             }
     }
 }
-=======
-public class LotteraArray {
-    public static void main(String args[]) {
-
-        final int NMAX = 10; // keyword 'final' represents a constant
-
-        int[][] odds = new int[NMAX + 1][];
-        for(int n = 0; n <= NMAX; n++) odds[n] = new int[n + 1];
-
-        for(int n = 0; n < odds.length; n++)
-            for (int k = 0; k < odds[n].length; k++) {
-                int lotteryOdds = 1;
-                for (int i = 1; i <= k; i++)
-                    lotteryOdds = lotteryOdds * (n - i + 1) / i;
-
-                odds[n][k] = lotteryOdds;
-            }
-
-            for(int[] row : odds) {
-                for(int odd : row)
-                    System.out.printf("%4d", odd);
-                System.out.println();
-            }
-    }
-}
->>>>>>> b52e016cf7f2fb6b1ea3cc0cbc5dea42e06779ab
