@@ -1,7 +1,9 @@
+package igor.javoviny;
+
 import java.time.LocalDate;
 import java.util.Objects;
 
-class Employee {
+public class Employee {
 
     // instance fields of Employee class
     private final String name;
